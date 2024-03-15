@@ -40,4 +40,4 @@ def predict():
         return f'The lung cancer type is: {results}'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='10.0.0.16',port=5000,debug=True)
